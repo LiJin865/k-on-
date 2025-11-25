@@ -1,0 +1,157 @@
+stylesling.css 
+h1 { 
+    text-align: center;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fdf9d4;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 95%;
+    max-width: 950%;
+    margin: auto;
+    padding: 20px;
+} 
+
+/* Title */
+h1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/* Navigation */
+nav {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.navigator  {
+  text-decoration: none;
+  margin: 0 15px;
+  color: black;
+  font-weight: bold;
+}
+
+nav a { 
+    text-decoration: none;
+  margin: 0 15px;
+  color: black;
+  font-weight: bold;
+
+}
+
+/* Japanese title */
+.jp-title {
+  display: block;
+    margin: 10px auto;
+    max-width: 400px; 
+    height: auto;
+
+}
+
+/* Intro section */
+.intro-section {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+
+.poster {
+  width: 300px;
+  border-radius: 6px;
+}
+
+.description {
+  text-align: justify;
+  line-height: 1.7;
+  font-size: 1.6em;
+} 
+
+/* Characters */
+.section-title {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.character {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  margin-bottom: 40px;
+}
+
+/* Image styling */
+.character img {
+ width: 700px;
+  height: 200px;
+
+}
+
+.End-logo { 
+    margin: 5px;
+}
+
+
+.char-info h3 {
+  margin-top: 0;
+  font-size: 1em;
+}
+
+.char-info { 
+    font-size: 1.6em;
+    line-height: 1.2;
+}
+
+
+/* Force image to the right */
+.character.right {
+  flex-direction: row-reverse;
+  gap: 10px;
+}
+
+
+
+/* Mobile responsive but STILL right side */
+@media (max-width: 768px) {
+  .character {
+    line-height: 1;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .character img {
+    width: 235px;
+    height: 160px;
+  }
+
+  .char-info {
+    text-align: left;
+    line-height: 15px;
+    font-size: 1em;
+  }
+  .description { 
+    font-size: 1em;
+    line-height: 1.1;
+}
+
+.poster { 
+    width: 200px;
+}
+
+.container { 
+    width: 95%;
+    max-width: fit-content;
+    margin: 5px;
+    padding: 5px;
+}
+} 
+
+
+
+
